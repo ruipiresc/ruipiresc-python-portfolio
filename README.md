@@ -1,2 +1,2 @@
-# ruipiresc.python.portfolio
- A python package to show stats on your trades and portfolio
+# Portfolio
+ A python CLI tool to show stats on your trades and portfolio
