@@ -129,3 +129,5 @@ credentials.json
 portfolio.db
 *.xlsx
 test.py
+.vscode/settings.json
+.vscode/launch.json
