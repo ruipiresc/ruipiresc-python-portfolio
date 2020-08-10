@@ -76,7 +76,10 @@ class Portfolio(object):
           money_invested = sum(trade.total_cost for trade in trades)
           print(f'processed statement from "{broker.name}" of <{statement.date}> with #{len(trades)} trades and {money_invested} {broker.currency} invested')
           self.db.trades.insert(utils.to_df(trades))
+    def update_symbols() -> None:
+      raise NotImplementedError()
     update_trades()
+    update_symbols()
     return 'portfolio trades and tickers updated'
 
   def trades(self) -> str:
