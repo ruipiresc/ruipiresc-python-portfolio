@@ -59,6 +59,16 @@ class Portfolio(object):
       statement_id= str
     ).primary_keys(['id']))
 
+    self.db.create_table('symbols', wl.table.TableFormat(
+      id= str,
+      symbol= str,
+      exchange= str,
+      last_price= str,
+      timestamp= float,
+      sector= str,
+      industry= float,
+    ).primary_keys(['id']))
+
     self.gmail
     return 'tables and connection to gmail ok. Set up complete'
 
