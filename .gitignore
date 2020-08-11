@@ -126,7 +126,7 @@ dmypy.json
 .DS_Store
 token.pickle
 credentials.json
-portfolio.db
+*.db
 *.xlsx
 test.py
 .vscode/settings.json
