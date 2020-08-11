@@ -1,6 +1,7 @@
 import datetime as dt
 from dataclasses import dataclass, field
-from .utils import to_dict
+import pandas as pd
+from .utils import to_df, to_dict
 
 @dataclass
 class Statement:
@@ -15,3 +16,6 @@ class Statement:
 
     def to_dict(self) -> dict:
         return to_dict(self)
+    
+    def to_df(self) -> pd.DataFrame:
+        return to_df(self)
