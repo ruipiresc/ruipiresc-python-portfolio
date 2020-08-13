@@ -131,3 +131,4 @@ credentials.json
 test.py
 .vscode/settings.json
 .vscode/launch.json
+notebook_alpha_vantage.ipynb
